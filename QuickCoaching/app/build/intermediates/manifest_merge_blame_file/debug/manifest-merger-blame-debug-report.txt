@@ -1,0 +1,151 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.coachingapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="27"
+8-->/Users/melvina/Desktop/PojectV2/QuickCoaching/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/melvina/Desktop/PojectV2/QuickCoaching/app/src/main/AndroidManifest.xml
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:19.1.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/17cec60889de556f1129da6a81ba7b86/firebase-database-19.1.0/AndroidManifest.xml:25:5-79
+13-->[com.google.firebase:firebase-database:19.1.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/17cec60889de556f1129da6a81ba7b86/firebase-database-19.1.0/AndroidManifest.xml:25:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-database:19.1.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/17cec60889de556f1129da6a81ba7b86/firebase-database-19.1.0/AndroidManifest.xml:26:5-67
+14-->[com.google.firebase:firebase-database:19.1.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/17cec60889de556f1129da6a81ba7b86/firebase-database-19.1.0/AndroidManifest.xml:26:22-64
+15
+16    <application
+16-->/Users/melvina/Desktop/PojectV2/QuickCoaching/app/src/main/AndroidManifest.xml:5:5-19:19
+17        android:allowBackup="true"
+17-->/Users/melvina/Desktop/PojectV2/QuickCoaching/app/src/main/AndroidManifest.xml:6:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.0.1] /Users/melvina/.gradle/caches/transforms-2/files-2.1/d856a2ad07d784cae061be131eb0ba9a/core-1.0.1/AndroidManifest.xml:22:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->/Users/melvina/Desktop/PojectV2/QuickCoaching/app/src/main/AndroidManifest.xml:7:9-43
+21        android:label="@string/app_name"
+21-->/Users/melvina/Desktop/PojectV2/QuickCoaching/app/src/main/AndroidManifest.xml:8:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->/Users/melvina/Desktop/PojectV2/QuickCoaching/app/src/main/AndroidManifest.xml:9:9-54
+23        android:supportsRtl="true"
+23-->/Users/melvina/Desktop/PojectV2/QuickCoaching/app/src/main/AndroidManifest.xml:10:9-35
+24        android:theme="@style/AppTheme" >
+24-->/Users/melvina/Desktop/PojectV2/QuickCoaching/app/src/main/AndroidManifest.xml:11:9-40
+25        <activity android:name="com.example.coachingapp.MainActivity" >
+25-->/Users/melvina/Desktop/PojectV2/QuickCoaching/app/src/main/AndroidManifest.xml:12:9-18:20
+25-->/Users/melvina/Desktop/PojectV2/QuickCoaching/app/src/main/AndroidManifest.xml:12:19-47
+26            <intent-filter>
+26-->/Users/melvina/Desktop/PojectV2/QuickCoaching/app/src/main/AndroidManifest.xml:13:13-17:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->/Users/melvina/Desktop/PojectV2/QuickCoaching/app/src/main/AndroidManifest.xml:14:17-69
+27-->/Users/melvina/Desktop/PojectV2/QuickCoaching/app/src/main/AndroidManifest.xml:14:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->/Users/melvina/Desktop/PojectV2/QuickCoaching/app/src/main/AndroidManifest.xml:16:17-77
+29-->/Users/melvina/Desktop/PojectV2/QuickCoaching/app/src/main/AndroidManifest.xml:16:27-74
+30            </intent-filter>
+31        </activity>
+32
+33        <provider
+33-->[com.squareup.picasso:picasso:2.71828] /Users/melvina/.gradle/caches/transforms-2/files-2.1/7686667b0ca42f76edaba3ddca2c3ebc/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+34            android:name="com.squareup.picasso.PicassoProvider"
+34-->[com.squareup.picasso:picasso:2.71828] /Users/melvina/.gradle/caches/transforms-2/files-2.1/7686667b0ca42f76edaba3ddca2c3ebc/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+35            android:authorities="com.example.coachingapp.com.squareup.picasso"
+35-->[com.squareup.picasso:picasso:2.71828] /Users/melvina/.gradle/caches/transforms-2/files-2.1/7686667b0ca42f76edaba3ddca2c3ebc/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+36            android:exported="false" />
+36-->[com.squareup.picasso:picasso:2.71828] /Users/melvina/.gradle/caches/transforms-2/files-2.1/7686667b0ca42f76edaba3ddca2c3ebc/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+37
+38        <activity
+38-->[com.google.android.gms:play-services-auth:17.0.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/5ed713a0ff70c0fa26615302da95891f/play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
+39            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+39-->[com.google.android.gms:play-services-auth:17.0.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/5ed713a0ff70c0fa26615302da95891f/play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
+40            android:excludeFromRecents="true"
+40-->[com.google.android.gms:play-services-auth:17.0.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/5ed713a0ff70c0fa26615302da95891f/play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
+41            android:exported="false"
+41-->[com.google.android.gms:play-services-auth:17.0.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/5ed713a0ff70c0fa26615302da95891f/play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
+42            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+42-->[com.google.android.gms:play-services-auth:17.0.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/5ed713a0ff70c0fa26615302da95891f/play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
+43        <!--
+44            Service handling Google Sign-In user revocation. For apps that do not integrate with
+45            Google Sign-In, this service will never be started.
+46        -->
+47        <service
+47-->[com.google.android.gms:play-services-auth:17.0.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/5ed713a0ff70c0fa26615302da95891f/play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
+48            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+48-->[com.google.android.gms:play-services-auth:17.0.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/5ed713a0ff70c0fa26615302da95891f/play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
+49            android:exported="true"
+49-->[com.google.android.gms:play-services-auth:17.0.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/5ed713a0ff70c0fa26615302da95891f/play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
+50            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+50-->[com.google.android.gms:play-services-auth:17.0.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/5ed713a0ff70c0fa26615302da95891f/play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
+51
+52        <activity
+52-->[com.google.firebase:firebase-auth:19.1.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/4bf5ad23fb8b48603baac97e97e245fe/firebase-auth-19.1.0/AndroidManifest.xml:24:9-31:50
+53            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+53-->[com.google.firebase:firebase-auth:19.1.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/4bf5ad23fb8b48603baac97e97e245fe/firebase-auth-19.1.0/AndroidManifest.xml:25:13-85
+54            android:excludeFromRecents="true"
+54-->[com.google.firebase:firebase-auth:19.1.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/4bf5ad23fb8b48603baac97e97e245fe/firebase-auth-19.1.0/AndroidManifest.xml:26:13-46
+55            android:exported="true"
+55-->[com.google.firebase:firebase-auth:19.1.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/4bf5ad23fb8b48603baac97e97e245fe/firebase-auth-19.1.0/AndroidManifest.xml:27:13-36
+56            android:launchMode="singleTask"
+56-->[com.google.firebase:firebase-auth:19.1.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/4bf5ad23fb8b48603baac97e97e245fe/firebase-auth-19.1.0/AndroidManifest.xml:28:13-44
+57            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+57-->[com.google.firebase:firebase-auth:19.1.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/4bf5ad23fb8b48603baac97e97e245fe/firebase-auth-19.1.0/AndroidManifest.xml:29:13-102
+58            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+58-->[com.google.firebase:firebase-auth:19.1.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/4bf5ad23fb8b48603baac97e97e245fe/firebase-auth-19.1.0/AndroidManifest.xml:30:13-72
+59
+60        <service
+60-->[com.google.firebase:firebase-auth:19.1.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/4bf5ad23fb8b48603baac97e97e245fe/firebase-auth-19.1.0/AndroidManifest.xml:33:9-39:19
+61            android:name="com.google.firebase.components.ComponentDiscoveryService"
+61-->[com.google.firebase:firebase-auth:19.1.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/4bf5ad23fb8b48603baac97e97e245fe/firebase-auth-19.1.0/AndroidManifest.xml:34:13-84
+62            android:directBootAware="true"
+62-->[com.google.firebase:firebase-common:19.1.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/97ba2a7fe940ab4ba486aab773eee2fc/firebase-common-19.1.0/AndroidManifest.xml:14:13-43
+63            android:exported="false" >
+63-->[com.google.firebase:firebase-auth:19.1.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/4bf5ad23fb8b48603baac97e97e245fe/firebase-auth-19.1.0/AndroidManifest.xml:35:13-37
+64            <meta-data
+64-->[com.google.firebase:firebase-auth:19.1.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/4bf5ad23fb8b48603baac97e97e245fe/firebase-auth-19.1.0/AndroidManifest.xml:36:13-38:85
+65                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+65-->[com.google.firebase:firebase-auth:19.1.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/4bf5ad23fb8b48603baac97e97e245fe/firebase-auth-19.1.0/AndroidManifest.xml:37:17-109
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[com.google.firebase:firebase-auth:19.1.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/4bf5ad23fb8b48603baac97e97e245fe/firebase-auth-19.1.0/AndroidManifest.xml:38:17-82
+67            <meta-data
+67-->[com.google.firebase:firebase-database:19.1.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/17cec60889de556f1129da6a81ba7b86/firebase-database-19.1.0/AndroidManifest.xml:32:13-34:85
+68                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+68-->[com.google.firebase:firebase-database:19.1.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/17cec60889de556f1129da6a81ba7b86/firebase-database-19.1.0/AndroidManifest.xml:33:17-109
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.firebase:firebase-database:19.1.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/17cec60889de556f1129da6a81ba7b86/firebase-database-19.1.0/AndroidManifest.xml:34:17-82
+70        </service>
+71
+72        <activity
+72-->[com.google.android.gms:play-services-base:17.1.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/c6ed24259e187418524151309c91ad64/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+73            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+73-->[com.google.android.gms:play-services-base:17.1.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/c6ed24259e187418524151309c91ad64/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+74            android:exported="false"
+74-->[com.google.android.gms:play-services-base:17.1.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/c6ed24259e187418524151309c91ad64/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+75            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+75-->[com.google.android.gms:play-services-base:17.1.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/c6ed24259e187418524151309c91ad64/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+76
+77        <provider
+77-->[com.google.firebase:firebase-common:19.1.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/97ba2a7fe940ab4ba486aab773eee2fc/firebase-common-19.1.0/AndroidManifest.xml:17:9-21:39
+78            android:name="com.google.firebase.provider.FirebaseInitProvider"
+78-->[com.google.firebase:firebase-common:19.1.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/97ba2a7fe940ab4ba486aab773eee2fc/firebase-common-19.1.0/AndroidManifest.xml:18:13-77
+79            android:authorities="com.example.coachingapp.firebaseinitprovider"
+79-->[com.google.firebase:firebase-common:19.1.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/97ba2a7fe940ab4ba486aab773eee2fc/firebase-common-19.1.0/AndroidManifest.xml:19:13-72
+80            android:exported="false"
+80-->[com.google.firebase:firebase-common:19.1.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/97ba2a7fe940ab4ba486aab773eee2fc/firebase-common-19.1.0/AndroidManifest.xml:20:13-37
+81            android:initOrder="100" />
+81-->[com.google.firebase:firebase-common:19.1.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/97ba2a7fe940ab4ba486aab773eee2fc/firebase-common-19.1.0/AndroidManifest.xml:21:13-36
+82
+83        <meta-data
+83-->[com.google.android.gms:play-services-basement:17.0.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/008249fad776c0654a5faf8c08a5fb69/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+84            android:name="com.google.android.gms.version"
+84-->[com.google.android.gms:play-services-basement:17.0.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/008249fad776c0654a5faf8c08a5fb69/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+85            android:value="@integer/google_play_services_version" />
+85-->[com.google.android.gms:play-services-basement:17.0.0] /Users/melvina/.gradle/caches/transforms-2/files-2.1/008249fad776c0654a5faf8c08a5fb69/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+86    </application>
+87
+88</manifest>
